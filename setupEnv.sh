@@ -34,7 +34,3 @@ mvn install:install-file -Dfile=lib/JoSQL-2.2.jar -DpomFile=/poms/JoSQL-2.2.pom
 mvn install:install-file -Dfile=lib/oiosaml.java-21188-PATCHED.jar -DpomFile=/poms/oiosaml.java-21188-PATCHED.pom
 mvn install:install-file -Dfile=lib/PDFBox-0.7.3.jar -DpomFile=/poms/PDFBox-0.7.3.pom
 mvn install:install-file -Dfile=lib/rdf-api-2001-01-19.jar -DpomFile=/poms/rdf-api-2001-01-19.pom
-
-# run maven build and test
-echo "Running build and tests..."
-mvn clean package
